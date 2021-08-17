@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.btn-check{
+    margin-top: 1rem;
+}
