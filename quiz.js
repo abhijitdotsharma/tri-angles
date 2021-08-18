@@ -1,5 +1,6 @@
 const questionForm = document.querySelector(".question-form")
 const checkBtn = document.querySelector("#btn-check")
+const outputEl = document.querySelector('#output-el')
 
 //array of correct answers
 const correctAns = ['50', '80']
@@ -15,7 +16,7 @@ function calculateScore(){
         }
         index++
     }
-    console.log(score)
+    outputEl.innerText = `You scored : ${score}`
 }
 
 checkBtn.addEventListener('click', calculateScore)
