@@ -1,0 +1,16 @@
+body{
+    background-color: wheat;
+}
+.container{
+    border: 1px solid teal;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    width: 50%;
+}
+
+#btn-check{
+    margin-top: 1rem;
+}
