@@ -1,0 +1,23 @@
+body{
+    background-color: beige;
+}
+.nav-container{
+    width: 65%;
+    margin: auto;
+    padding: 1rem;
+}
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.container{
+    width: 65%;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid teal;
+}
