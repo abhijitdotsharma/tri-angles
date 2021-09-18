@@ -29,10 +29,10 @@
         <h1>You know Pythagoras?</h1>
 
         <label for="input-a">a = </label>
-        <input type="number" id="input-a">
+        <input type="number" id="input-a" min=0 oninput="validity.valid||(value='');">
 
         <label for="input-b">b =</label>
-        <input type="number" id="input-b">
+        <input type="number" id="input-b" min=0 oninput="validity.valid||(value='');">
 
         <button id="btn-check">Calculate hypotaneouse</button>
         <div class="output-el"></div>
