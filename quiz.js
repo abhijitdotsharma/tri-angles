@@ -3,7 +3,7 @@ const checkBtn = document.querySelector("#btn-check")
 const outputEl = document.querySelector('#output-el')
 
 //array of correct answers
-const correctAns = ['50', '80']
+const correctAns = ['50', '80', '10', '45', '90']
 
 function calculateScore(){
     let score = 0;
